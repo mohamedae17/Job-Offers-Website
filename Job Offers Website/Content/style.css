@@ -8,14 +8,14 @@
     src: url('font/DroidKufi-Regular.ttf')
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a ,.myfooter a,p{
     color: #fff494;
     font-family:myFont;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ffd800;
-}
+    .navbar-default .navbar-nav > li > a:hover,.myfooter a:hover{
+        color: #ffd800;
+    }
 .nav > li {
     position: relative;
     display: block;
@@ -26,4 +26,23 @@
 .navbar-default {
     background-color: #000000;
     border-color: #ffffff;
+}
+
+.myfooter{
+    background-color:#808080;
+    padding-top:10px;
+    font-family:myFont;
+    text-align:justify;
+}
+
+.myfooter h3,ul,p{
+    margin-bottom:20px;
+    font-family:myFont2;
+}
+
+.subfooter {
+    background-color: #000000;
+    color: #fff494;
+    padding: 10px;
+    text-align: center;
 }

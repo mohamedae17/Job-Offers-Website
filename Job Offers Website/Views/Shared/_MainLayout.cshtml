@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width,initial scale=1" />
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/style.css" rel="stylesheet" />
@@ -31,19 +31,19 @@
                     </li>
                     <li>
                         <a href="#">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-folder-open"></i>
                             أصناف العروض
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-info-sign"></i>
                             حول الموقع
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="glyphicon glyphicon-home"></i>
+                            <i class="glyphicon glyphicon-envelope"></i>
                             اتصل بنا
                         </a>
                     </li>
@@ -69,6 +69,52 @@
     <div>
         @RenderBody()
     </div>
+    <footer class="myfooter navbar-fixed-bottom navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-info-sign"></i>
+                        من نحن ؟
+                    </h3>
+                    <p>لكن لا بد أن أوضح لك أن كل 
+                    هذه الأفكار المغلوطة حول استنكار 
+                    النشوة وتمجيد الألم نشأت بالفعل،
+                    وسأعرض لك التفاصيل لتكتشف 
+                    حقيقة وأساس تلك السعادة البشرية، فلا 
+                    أحد يرفض أو يكره أو يتجنب
+                    الشعور بالسعادة.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-globe"></i>
+                        روابط هامة
+                    </h3>
+                    <ul>
+                        <li><a href="#">وظائف للقطاع العام</a></li>
+                        <li><a href="#">وظائف للقطاع الخاص</a></li>
+                        <li><a href="#">وظائف خارج البلاد</a></li>
+                        <li><a href="#">وظائف متنوعة</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        تواصل معنا
+                    </h3>
+                    <ul>
+                        <li><a href="#">صفحتنا على الفيسبوك</a></li>
+                        <li><a href="#">تابعنا على تويتر</a></li>
+                        <li><a href="#">شاهدنا على اليوتيوب</a></li>
+                        <li><a href="#">اترك لنا رسالة</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="subfooter">
+                <span>جميع الحقوق محفوظة لموقع التوظيف 2022 </span>
+            </div>
+    </footer>
     <script src="~/Scripts/jquery.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
