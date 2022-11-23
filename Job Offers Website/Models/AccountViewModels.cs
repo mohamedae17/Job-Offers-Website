@@ -67,6 +67,11 @@ namespace WebApplication1.Models
         [Required]
         [Display(Name = "اسم المستخدم")]
         public string UserName { get; set; }
+
+        [Required]
+        [Display(Name = "نوع الحساب")]
+        public string UserType { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "البريد الإلكترونى")]
