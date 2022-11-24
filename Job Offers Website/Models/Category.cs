@@ -15,5 +15,7 @@ namespace Job_Offers_Website.Models
         [Required]
         [Display(Name = "وصف النوع")]
         public string CategoryDescription { get; set; }
+
+        public ICollection<Job> Jobs { get; set; }
     }
 }
