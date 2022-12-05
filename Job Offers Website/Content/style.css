@@ -10,6 +10,7 @@
 
 body{
     padding-top:100px;
+    font-family: myFont2;
 }
 .navbar-default .navbar-nav > li > a ,.myfooter a,p{
     color: #fff494;
